@@ -65,3 +65,30 @@
 //         console.log(i);
 //     }
 // }
+
+
+
+// Question 4:
+// Write a JavaScript program that finds the largest prime factor of a given number.
+
+// let number=13195;
+// let i=2;
+// function primeNumber(number){
+// while(i<=number){
+//     if(number%i==0){
+//         number=number/i;
+//     }else{
+//         i++;
+//     }
+// }
+// return i;
+// }
+// console.log(primeNumber(number));
+
+
+
+// Question 7:
+// Create a JavaScript program that implements a basic binary search algorithm. The function should take a sorted array and a target value, and return the index of the target value or -1 if it's not found.
+
+let array=[1,2,3,4,5,6];
+let target=4;
